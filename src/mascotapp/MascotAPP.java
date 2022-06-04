@@ -12,6 +12,14 @@ public class MascotAPP {
         
         servMasc.mostrarMascotas();
         
+        servMasc.actualizarMascota(0);
+        
+        servMasc.mostrarMascotas();
+        
+        servMasc.eliminarMascota(2);
+        
+        servMasc.mostrarMascotas();
+        
     }
 
 }
