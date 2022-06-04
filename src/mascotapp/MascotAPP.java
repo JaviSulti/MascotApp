@@ -8,8 +8,7 @@ public class MascotAPP {
 
         ServicioMascota servMasc = new ServicioMascota();
         
-        servMasc.crearMascota();
-        servMasc.crearMascota();
+        servMasc.fabricaMascota(1);
         
         servMasc.mostrarMascotas();
         
